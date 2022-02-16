@@ -1,5 +1,7 @@
 # COVID19_GGplot
 # GGplot of COVID-19 cases using Italian Health Ministry data
+# data were downloaded from https://github.com/pcm-dpc/COVID-19/ see dpc-covid19-ita-province-20200224.csv
+
 # Order labels (this is according to the total number of cases on the 20th of March:
 mydt$ord <- factor(mydt$denominazione_provincia, levels=c( 'Bergamo', 'Brescia', 'Milano', 'Cremona', 'Lodi', 'Pavia', 'Mantova', 'Monza e della Brianza', 'Piacenza', 'Sondrio', 'Varese', 'Lecco', 'In fase di definizione/aggiornamento'))
 
